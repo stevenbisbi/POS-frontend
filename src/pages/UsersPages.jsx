@@ -10,7 +10,7 @@ import {
   Container,
   Modal,
 } from "react-bootstrap";
-import { UserCard } from "../components/Users/UserCard.jsx";
+import { UserCard } from "../components/users/UserCard.jsx";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext.jsx";
 import { toast } from "react-hot-toast";
