@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "https://pos-backend-coral-two.vercel.app/api/v1";
+const API_BASE_URL = "https://pos-backend-coral-two.vercel.app";
 
 const axiosClient = axios.create({
   baseURL: API_BASE_URL,
