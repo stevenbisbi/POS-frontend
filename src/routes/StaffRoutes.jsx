@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 
 import { ProtectedRoute } from "./ProtectedRoute";
-import POSPage from "../pages/PosPage.jsx";
+import POSPage from "../pages/PosPage";
 
 export default function staffRoutes() {
   return (
